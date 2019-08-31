@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="300dp"
+    android:background="@drawable/achievements_popup_bg_unlocked" >
+
+    <ImageButton
+        android:id="@+id/crossimgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/md__transparent"
+        android:src="@drawable/cross_icon" />
+
+    <ImageView
+        android:id="@+id/achievementimgView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:background="@color/md__transparent"
+        android:src="@drawable/achievements_reward_unlocked" />
+
+    <TextView
+        android:id="@+id/achvNametxtView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
+    <View
+        android:id="@+id/linebelowLogo"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+      
+         android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_below="@+id/achvNametxtView"
+        android:layout_marginTop="18dp"
+        android:background="@color/whiteBackground" />
+
+    <TextView
+        android:id="@+id/achvContenttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/linebelowLogo"
+        android:layout_below="@+id/linebelowLogo"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="17dp"
+        android:layout_toLeftOf="@+id/crossimgBtn"
+        android:text="This badge is won when player achieves 10 perfect scores in a row"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

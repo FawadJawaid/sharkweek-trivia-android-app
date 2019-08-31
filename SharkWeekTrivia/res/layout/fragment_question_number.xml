@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md__transparent">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/centerView"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/centerView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/ques"
+        android:paddingLeft="17dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#e4ff00"
+        android:textStyle="bold" />
+     
+     <View
+         android:id="@+id/centerView"
+         android:layout_width="125dp"
+         android:layout_height="125dp"
+         android:layout_below="@+id/question"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="16dp"
+         android:background="@drawable/questionumberborder" />
+     
+     <TextView
+         android:id="@+id/questionNumber"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/centerView"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="45dp"
+         android:scaleX="4"
+         android:scaleY="4"
+         android:textColor="#e4ff00"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:textStyle="bold" />
+
+     <ImageView
+         android:id="@+id/discoverybottomLogo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="17dp"
+         android:src="@drawable/bottom_logo"
+         android:contentDescription="@string/app_name" />
+
+     <TextView
+         android:id="@+id/bonusPoints"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/centerView"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="5dp"
+         android:scaleX="2"
+         android:scaleY="2"
+         android:paddingBottom="5dp"
+         android:textColor="@color/whiteBackground" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="app_name">Shark Week Trivia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <string name="play">PLAY</string>
+    <string name="howtoplay">How to Play</string>
+    <string name="title_activity_main_tabs">MainTabsActivity</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="developedby">Developed by 10Pearls</string>
+    <string name="rightsreserved">All Rights Reserved</string>
+    <string name="howtoplayheading">HOW TO PLAY</string>
+    <string name="settings">SETTINGS</string>
+    <string name="leaderboardheader">LEADERBOARD</string>
+    <string name="alertsheader">ALERTS</string>
+    <string name="creditsheader">CREDITS</string>
+    <string name="termsuse">Terms of Use</string>
+    <string name="imagecredits">Image Credits</string>
+    <string name="privpol">Privacy Policy</string>
+    <string name="achievementsheader">ACHIEVEMENTS</string>
+    <string name="ultchamp">  Ultimate Champion</string>
+    <string name="kidsrule">Kids Rule! Award</string>
+    <string name="smartypants">Smarty Pants Badge</string>
+    <string name="masterdisaster">Master of Disaster</string>
+    <string name="littlemonster">Little Monster</string>
+    <string name="triviexpert">Trivia Expert</string>
+    <string name="profileheader">PROFILE</string>
+    <string name="username">User Name</string>
+    <string name="delact">Delete Account</string>
+    <string name="logout">Log out</string>
+    <string name="title_activity_howto_play">HowtoPlayActivity</string>
+    <string name="title_activity_termsof_use">TermsofUseActivity</string>
+    <string name="title_activity_privacypolicy">PrivacypolicyActivity</string>
+    <string name="title_activity_imagecredits">ImagecreditsActivity</string>
+    <string name="terms">TERMS OF USE</string>
+    <string name="policy">PRIVACY POLICY</string>
+    <string name="credits">IMAGE CREDITS</string>
+    <string name="title_activity_game_question">GameQuestionActivity</string>
+    <string name="ques">Question</string>
+    <string name="slash">/</string>
+    <string name="scoreHeading">Your Score</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="share">Share</string>
+    <string name="app_id">1607367272821856</string>
+    <string name="tryagain">Please Try Again</string>
+    <string name="visitus">Visit us at</string>
+    <string name="link">www.sharkweek.com</string>
+    <string name="title_activity_quiz_selection">QuizSelectionActivity</string>
+    <string name="choosequiz">CHOOSE A QUIZ:</string>
+    <string name="everyoneleaderboardheader">EVERYONE</string>
+    <string name="friendsleaderboardheader">FRIENDS</string>
+
+</resources>

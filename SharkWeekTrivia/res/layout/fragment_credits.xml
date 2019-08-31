@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_common" >
+
+    <TextView
+        android:id="@+id/creditsHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/creditsheader"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#00fff9" />
+
+    <Button
+        android:id="@+id/termsUsebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/creditsHeading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/md__transparent"
+        android:text="@string/termsuse"
+        android:textColor="#ffffff" 
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"/>
+
+    <View
+        android:id="@+id/linebelowLogo"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignTop="@+id/termsUsebtn"
+        android:layout_centerHorizontal="true"
+        android:background="@color/whiteBackground" />
+
+    <View
+        android:id="@+id/View01"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/termsUsebtn"
+        android:background="@color/whiteBackground" />
+
+    <Button
+        android:id="@+id/privacyPolbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imgCreditsbtn"
+        android:layout_below="@+id/View01"
+        android:background="@color/md__transparent"
+        android:text="@string/privpol"
+        android:textColor="#ffffff"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp" />
+
+    <View
+        android:id="@+id/View02"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/privacyPolbtn"
+        android:background="@color/whiteBackground" />
+
+    <Button
+        android:id="@+id/imgCreditsbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/termsUsebtn"
+        android:layout_below="@+id/View02"
+        android:background="@color/md__transparent"
+        android:text="@string/imagecredits"
+        android:textColor="#ffffff"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp" />
+
+    <View
+        android:id="@+id/View03"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imgCreditsbtn"
+        android:background="@color/whiteBackground" />
+
+    <View
+        android:id="@+id/View04"
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="70dp"
+         android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/whiteBackground" />
+
+    <TextView
+        android:id="@+id/developedbyText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/View04"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/developedby"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/rightsReservedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/developedbyText"
+        android:layout_centerHorizontal="true"
+        android:text="@string/rightsreserved"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
